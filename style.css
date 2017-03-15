@@ -8,7 +8,7 @@
 nav {
     box-shadow: 3px 4px 24px 0 rgba(0, 0, 0, 0.07);
 	margin-top: 2px;
-	background: #FCEBB6;
+	background: lightgreen;
 font-family: 'Merienda', cursive;
 }
 .nav ul {
@@ -32,12 +32,12 @@ font-family: 'Merienda', cursive;
 body .nav .nav-menu li a {
 	display:inline-block;
 	padding:15px 20px;
-	color:#5E412F;
+	color: black;
 	font-size: 18px;
 	font-weight: 700;
 }
 .nav.yoga .nav-menu li.active a {
-	color: #5E412F;
+	color: black;
 	text-decoration: underline;
 }
 .nav.yoga .nav-menu li a:hover {
