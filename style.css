@@ -269,3 +269,138 @@ body .nav .nav-menu li a {
   background: lightgreen url('img/kanan.png') no-repeat 10px 17px;
 }
 /* End Image slider*/
+.one-third {
+  width: 28%;
+  float: left;
+  margin: 2% 0 3% 4%;
+  text-align: center;
+}
+
+.one-third i {
+  color: #f0ab30;
+  font-size: 585%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h2.welcome {
+  margin-top: 4%;
+}
+
+.left-col {
+  width: 60%;
+  float: left;
+  margin: 4% 0 4% 4%;
+}
+
+.sidebar {
+  width: 26%;
+  float: left;
+  margin: 4% 4%;
+}
+
+.sidebar img {
+  opacity: 0.7;
+}
+
+.one-third img {
+  padding: 2% 0 6% 0;
+}
+
+.page-callout {
+  width: 90%;
+  min-height: 70px;
+  margin: 1% auto;
+  border: 1px solid lightgreen;
+}
+
+.callout-text {
+  float: left;
+  width: 75%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button-holder {
+  float: right;
+  width: 19%;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+
+.btn {
+  float: left;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FEFBEF;
+  font-size: 22px;
+  background: lightgreen;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: green;
+}
+
+/* footer */
+footer {
+  background: lightgreen;
+  opacity: 0.9;
+  width: 100%;
+  padding: 1% 0;
+  color: #53412f;
+  overflow: auto;
+}
+
+footer h3 {
+  text-decoration: underline;
+}
+
+.footercontact {
+  text-align: center;
+}
+
+.phone a {
+  color: #5e412f;
+  text-decoration: none;
+}
+
+.social {
+  list-style-type: none;
+  margin: 3% 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  color: #f07818;
+  font-size: 195%;
+  padding: 3%;
+}
+
+.social i:hover {
+  color: brown;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
