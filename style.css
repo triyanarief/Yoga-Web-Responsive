@@ -357,6 +357,10 @@ footer {
   overflow: auto;
 }
 
+#copy {
+  text-align: center;
+}
+
 footer h3 {
   text-decoration: underline;
 }
