@@ -247,4 +247,25 @@ body .nav .nav-menu li a {
   transition: all 0.7s;
 }
 
-.slider
+.slider .bx-wrapper:hover .bx-controls-direction a {
+  z-index: 5;
+}
+
+.slider .bx-wrapper .bx-prev {
+  background: lightgreen url('img/kiri.png') no-repeat 8px 13px;
+  left: 0px;
+}
+
+.slider .bx-wrapper .bx-prev:hover {
+  background: lightgreen url('img/kiri.png') no-repeat 8px 18px;
+}
+
+.slider .bx-wrapper .bx-next {
+  background: lightgreen url('img/kanan.png') no-repeat 10px 12px;
+  right: 0px;
+}
+
+.slider .bx-wrapper .bx-next:hover {
+  background: lightgreen url('img/kanan.png') no-repeat 10px 17px;
+}
+/* End Image slider*/
