@@ -3,6 +3,45 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two); /*--- Heading Font --*/
 
 
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fefbef;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Shadows Into Light Two', sans-serif;
+  text-align: center;
+  font-size: 175%;
+  color: #78c0ab;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 3% 0 3% 0;
+}
+
+h2, h3, h4 {
+  font-family: 'Shadows Into Light Two', sans-serif;
+  text-align: center;
+  color: #5e412f;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*--- Start Navigation Style --*/
 nav {
