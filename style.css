@@ -33,15 +33,63 @@ h2, h3, h4 {
   letter-spacing: 1%;
 }
 
+p {
+  padding: 2%;
+  color: black;
+  text-align: justify;
+}
 
+img {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
 
+#wrapper {
+  margin: 0 auto;
+  max-width: 1120px;
+  background-color: #fefbef;
+  overflow: auto;
+}
 
+header {
+  width: 97%;
+}
 
+#logo {
+  float: left;
+  margin: 3% 0 0 5%;
+}
 
+#callout {
+  float: right;
+  margin: 3% 3% 2% 0;
+  margin-top: 85px;
+  height: auto;
+  overflow: hidden;
+}
 
+#callout h2 {
+  text-align: right;
+  color: #78c0ab;
+}
 
+#callout h2 a {
+  color: #78c0ab;
+  text-decoration: none;
+}
 
+#callout p {
+  text-align: center;
+  padding: 0%;
+  color: #f07818;
+}
 
+#banner-wrapper {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
 
 /*--- Start Navigation Style --*/
 nav {
@@ -177,3 +225,26 @@ body .nav .nav-menu li a {
 	padding: 15px 30px;
 }
 /*--- End Navigation Style --*/
+/* start image slider*/
+.slider {
+  max-width: 1020px;
+  box-shadow: 1% 2% 5% 0 rgba(0, 0, 0, 0.07);
+}
+
+.slider img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider .bx-wrapper .bx-controls-direction a{
+  outline: 0 none;
+  position: absolute;
+  text-indent: -9999px;
+  top: 40%;
+  height: 71px;
+  width: 40px;
+  z-index: -1;
+  transition: all 0.7s;
+}
+
+.slider
