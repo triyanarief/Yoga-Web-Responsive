@@ -404,3 +404,60 @@ footer h3 {
   width: 100% !important;
   height: 100% !important;
 }
+
+/*Media Queries!*/
+@media screen and (max-width: 740px) {
+  #wrapper {
+    margin-top: -1%;
+  }
+  #callout {
+    width: 100%;
+    margin: 3% 0 2% 0;
+  }
+  .slider .bx-wrapper .bx-controls {
+    display: none;
+  }
+  .one-third {
+    float: left;
+    margin: 4% 0;
+    width: 100%;
+  }
+  .one-third i {
+    font-size: 355%;
+  }
+  h1 {
+    font-size: 125%;
+    letter-spacing: 2px;
+  }
+  h2.welcome {
+    font-size: 120%;
+  }
+  .left-col {
+    width: 100%;
+    margin: 0 0 3% 0;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+  .sidebar img {
+    opacity: 0.9;
+  }
+  .page-callout {
+    width: 90%;
+    min-height: 160px;
+  }
+  .callout-text {
+    width: 95%;
+  }
+  .button-holder {
+    width: 80%;
+    padding: 1%;
+  }
+  .social i {
+    font-size: 175%;
+  }
+}
